@@ -30,7 +30,7 @@ function getPrice(){
 
 function bookNotif(){
     alert("Booking Has Been Placed!");
-    document.location.href="index.html";
+    document.location.href="home.html";
 }
 
 function book(){
