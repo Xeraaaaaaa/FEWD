@@ -1,0 +1,190 @@
+body {
+    background-color: grey;
+    color: white;
+}
+
+nav {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.center {
+  border: 5px solid;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding: 10px;
+}
+
+.centerReg {
+  border: 5px solid;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding: 10px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.h3center {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.pcenter{
+  text-align: center;
+}
+
+.btndiv {
+  text-align: center;
+}
+
+.button {
+  width: 100%;
+  display: block;
+  border: 1px solid;
+}
+
+.askreg{
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+  margin: auto;
+  border: 5px solid;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.imagesrow{
+  margin-top: 100px;
+}
+
+.white{
+  background-color: black;
+}
+
+.h3whitetext{
+  color: white;
+}
+
+.imagepop:hover{
+  transform: scale(1.05);
+  transition: all 1s ease;
+}
+
+.size{
+  width: 100%;
+  height: 500px;
+}
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+
+  /* Set a specific height */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.objfit{
+  width: 100%;
+}
+
+.h1ts{
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.form-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  left: 580px;
+  background-color: cornflowerblue;
+  padding: 20px;
+  border-radius: 0.5rem;
+}
+
+.input-box{
+  font-weight: 500;
+}
+
+.input-box input{
+  padding: 7px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.form-container .btn{
+  flex: 1 1 7rem;
+  padding: 10px 34px;
+  border: none;
+  border-radius: 0.5rem;
+  background: cadetblue;
+  color: white;
+  font-size: 1rem;
+
+}
+
+.section{
+  border: 5px solid;
+  margin-top: 5rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.paddingClass{
+  padding: 15px;
+}
+
+.wrap{
+  border: 5px solid;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding: 10px;
+}
+
